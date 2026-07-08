@@ -1,2 +1,22 @@
-# image-prompt-library
-A Codex skill for maintaining image prompt libraries with numbered image entries, reusable visual style profiles, source metadata, and grouped gallery support.
+# Image Prompt Library Skill
+
+A Codex skill for maintaining image prompt libraries with numbered image entries, source metadata, reusable visual style profiles, and grouped gallery support.
+
+## What It Does
+
+This skill helps Codex maintain an image prompt library by:
+
+- Adding referenced images into numbered `library/000001/` folders
+- Creating `prompt.md` metadata files
+- Recording image sources
+- Assigning reusable `article_style_profile` values
+- Managing `style_profiles/*.md`
+- Updating `viewer/catalog.js`
+- Keeping gallery grouping behavior consistent
+
+## Installation
+
+Copy this folder into your Codex skills directory:
+
+```text
+~/.codex/skills/image-prompt-library/
