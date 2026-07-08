@@ -1,7 +1,0 @@
-interface:
-  display_name: "Image Prompt Library"
-  short_description: "Maintain image prompt libraries and visual style profiles"
-  default_prompt: "Use $image-prompt-library to add images to this prompt library and keep visual style profiles organized."
-
-policy:
-  allow_implicit_invocation: true
